@@ -4,7 +4,7 @@ import os
 
 
 ruta_imagen_local = os.path.join("img", "2480958_15286-removebg-preview.png")
-st.image(ruta_imagen_local, caption="Imagen local", use_column_width=True)
+st.image(ruta_imagen_local)
 
 st.title("¡Hola neurona!")
 
