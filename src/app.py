@@ -1,8 +1,10 @@
 import streamlit as st
+import os
 
-url_imagen = "https://img.freepik.com/vector-gratis/diagrama-celula-vastago-fondo-blanco_1308-15286.jpg"
 
-st.image(url_imagen)
+
+ruta_imagen_local = os.path.join("img", "2480958_15286-removebg-preview.png")
+st.image(ruta_imagen_local, caption="Imagen local", use_column_width=True)
 
 st.title("¡Hola neurona!")
 
